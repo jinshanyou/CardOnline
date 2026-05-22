@@ -6,7 +6,7 @@
 ![Addressables](https://img.shields.io/badge/Addressables-v1.21-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
-> **项目演示 (B站实机录屏)**: [https://www.bilibili.com/video/BV1aVLe6xEps/?spm_id_from=333.1365.list.card_archive.click](这里替换成你的B站真实链接)
+> **项目演示 (B站实机录屏)**: [https://www.bilibili.com/video/BV1aVLe6xEps/?spm_id_from=333.1365.list.card_archive.click]
 > **技术栈**: Unity 3D, C# (Task 异步), TCP Socket, Google Protobuf, Addressables, ScriptableObject, DOTween
 
 `CardOnline` 是一款基于 Unity 引擎开发的 **Host-Client (主客机) 状态同步** 联机回合制卡牌对战系统。项目遵循 **数据与表现彻底分离 (MVC)** 的架构思想，底层网络通信、反序列化路由、对象池与事件中心均采用纯 C# 手写实现，致力于实现极致的 **0 GC 运行开销** 与 **高内聚低耦合** 的网络代码管线。
